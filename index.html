@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>AI Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>    
+    </head>
+    <body class="text-center" background="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    <center>
+        <h1 class="btn btn-primary heading">🤖 AI Object Finder Web App 🤖<br>
+            <p class="text-capitalize">Enter the object name you want to find but the name of the object should be in CoCo Model otherwise it will not find your object</p>
+        </h1>
+        <input class="form-control object" type="text" placeholder="Enter Your Object" id="object_name">
+        <button class="btn btn-danger" onclick="start();">Start</button>
+        <br>
+        <h3 class="btn btn-success" id="status"></h3>
+        <h3 class="btn btn-success" id="result"></h3>
+
+    <center>
+    </body>
+</html>

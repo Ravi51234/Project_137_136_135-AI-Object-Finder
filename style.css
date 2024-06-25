@@ -1,0 +1,27 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    width:100%;
+    font-size:23px;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading p{
+    font-size:11px;
+    color: black;
+}
+
+.object{
+    margin:5px;
+    width:20%;
+}
+
+canvas{
+    border:5px solid white;
+    box-shadow:6px 6px 6px white;
+    border-radius:20px;
+}
